@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 90vw;
+    margin: auto;
+}
+
+.head, .space {
+    height: 100px;
+}
+
+.logo {
+    width: 135px;
+    vertical-align: middle;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navigation {
+    background-color: #65CFFF;
+    padding: 20px 0;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    margin-left: 25px;
+}
+
+.menu a:hover {
+    color: #ffffff;
+}
+
+.cover {
+    background-image: linear-gradient(rgba(15, 15, 15, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cover.jpg);
+    background-size: cover; 
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* image from https://aecom.com/projects/new-space-university-of-newcastle/ */
+
+.roadmap {
+    padding: 100px 0;
+    
+}
+
+.roadmap img {
+    width: 100%;
+    box-shadow: 1px 2px 3px 1px #bebebe;
+}
+
+.cover-text {
+    text-align: center;
+    color: #ffffff;
+}
+
+.cover-text h2 {    
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #0000003d;    
+    font-weight: bold;
+}
+
+.cover-text p {
+    font-size: 20px;
+}
+
+.learn, .things {
+    padding-bottom: 100px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px 2px #0000003d;    
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.card {
+    background-color: blanchedalmond;
+    height: 400px;
+}
+
+.things-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.t-card {
+    background-color: beige;
+    height: 200px;
+}
+
+.footer {
+    background: #65CFFF;
+    height: 400px;
+}
+
+.copyright {
+    text-align: center;
+    color: #ffffff;
+    background: #2E4C85;
+    padding: 15px;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(15, 15, 15, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cover.jpg);
+    background-size: cover; 
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner-text h2 {    
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #0000003d;    
+    font-weight: bold;
+}
+
+.blog-background {
+    background:rgba(149, 157, 165, 0.2);
+}
+
+.blog-content {
+    background: white;
+    border-radius: 10px;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: -50px;
+    padding: 100px;
+    line-height: 2;
+}
+
+.video-content {
+    padding-top: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.video {
+    padding-top: 10px;
+}
+
+.video-title {
+    padding: 10px;
+}
+
+.post-title {
+    background: #2E4C85;;
+    font-weight: normal;
+    display: flex;
+    height: 300px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.blog-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.b-title {
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.blog-card {
+    background-color: #007db7;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+}
+
+.blog-wrapper a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-wrapper a:hover .blog-card{
+    color: purple;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.40);
+}
+
+.color {
+    background: #EDFA3C;
+}
+
+.color img {
+    height: 100%;
+    width: 100%;
+}
