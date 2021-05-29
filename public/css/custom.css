@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    cursor: default;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -246,6 +250,20 @@ a {
 .color img {
     height: 100%;
     width: 100%;
+}
+
+.blog-content a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.blog-content a:hover {
+    color: red;
+}
+
+.b-content ul {
+    margin: 16px;
+    padding-left: 40px;
 }
 
 

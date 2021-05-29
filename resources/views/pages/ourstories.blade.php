@@ -3,18 +3,18 @@
     <!-- ---------------------------------------- banner ---------------------------------------  -->
     <div class="banner">
         <div class="banner-text">
-            <h2>Blogs</h2>
+            <h2>Our Story</h2>
         </div>
     </div>
 
     <!-- --------------------------------- banner ends ------------------------------------------------ -->
 
-    @foreach($posts as $post)
+    @foreach($customposts as $post)
     @endforeach
     <div class="container">
         <div class="blog-wrapper">
-            @foreach($posts as $post)
-            <a href="post/{{ $post->slug }}">
+            @foreach($customposts as $post)
+            <a href="story/{{ $post->slug }}">
                 <div class="blog-card">
                     <div class="color">
                         <img src="img/cover.jpg" alt="" srcset="">

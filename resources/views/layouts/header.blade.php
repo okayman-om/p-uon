@@ -26,9 +26,9 @@
         <div class="menu container">
             <a href="/">Home</a>
             <a href="thingstoknow.html">Things to know</a>
-            <a href="universitytools.html">University Tools</a>
-            <a href="videos">Videos</a>
-            <a href="blog">Blog</a>
+            <a href="/ourstories">Our Stories</a>
+            <a href="/videos">Videos</a>
+            <a href="/blog">Blog</a>
             <a href="faq.html">FAQ</a>
         </div>
     </div>

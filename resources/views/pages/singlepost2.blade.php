@@ -2,10 +2,10 @@
 @section('main-content')
     <!-- ----------------------------------- Blog Content ------------------------------------------------ -->
     <div class="blog-background">
-        <h1 class="post-title">{{ $post->title }}</h1>
+        <h1 class="post-title">{{ $custompost->title }}</h1>
         <div class="blog-content">
             <div class="b-content">
-                {!! $post->post !!}
+                {!! $custompost->post !!}
             </div>
         </div>
     </div>
